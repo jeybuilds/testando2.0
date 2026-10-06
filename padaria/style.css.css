@@ -1,0 +1,53 @@
+div {
+    text-align: center;
+}
+.pequena {
+    width: 220px;
+}
+.amarelo {
+    color: darkorange;
+}
+.linha {
+    border-bottom: solid;
+    border-color: gray;
+    border-width: 1px;
+    margin-right: 220px;
+    margin-left: 220px;
+}
+.grande {
+    width: 650px;
+    height: 350px;
+}
+.uhaa {
+    background-color: darkorange;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-bottom: 5px;
+}
+h4 {
+    font-size: 25px;
+    color: white;
+    font-family: verdana;
+}
+.para {
+    margin-left: 80px;
+    margin-right: 80px;
+    color: white;
+    font-size: 15px;
+    font-family: verdana;
+}
+.igual {
+    width: 550px;
+    height: 220px;
+}
+.negrito {
+    font-weight: bold;
+}
+.ultimo {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: auto;
+}
+.longe p {
+    padding-top: 15px;
+}

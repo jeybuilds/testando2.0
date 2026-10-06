@@ -1,0 +1,178 @@
+/*globais*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+/*parte com efeito gradiante*/
+.gradiante {
+  width: 215px;
+  height: 215px;
+  background: linear-gradient(90deg, #ffdf00 #809c3b);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.borda-gradiante {
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+  border-radius: 100%;
+}
+/*sesao do banner parte com foto dele e links*/
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.foto-nome .menino-ney {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.foto-nomelinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foto-nome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 35px;
+}
+.foto-nome h1 {
+  font-size: 35px;
+  color: #fff;
+  text-shadow: 3px 3px #000000cc;
+}
+.foto-nome h1::after {
+  content: ""; 
+  background-image: url(assets/verificado.png);
+  background-size: 15px 15px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  z-index: 1;
+  position: absolute;
+  top: 295px;
+}
+.links a {
+  background-color: #0200006e;
+  border-radius: 55px;
+  padding: 0 55px;
+  color: #fff;
+  text-decoration: none;
+}
+.links a:hover {
+  background-color: #ffffffcc;
+  color: #000;
+}
+.links img {
+  height: 21px;
+  width: 21px;
+  margin: 0 35px 0 0;
+}
+/*parte da bordar gradiante*/
+.gradiante .preta {
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+  border-radius: 100%;
+}
+.gradiante {
+  width: 215px;
+  height: 215px;
+  background: linear-gradient(90deg, #ffdf00, #809c3b);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 27px;
+}
+/*parte cm video de fundo*/
+.video-fundo video {
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+}
+.video-fundo {
+  height: 550px;
+  width: 100%;
+}
+/*parte das estatisticas*/
+tr img {
+  height: 30px;
+  width: 30px;
+}
+.imagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/imagem-de-fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  
+}
+.estatisticas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagem h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: #fff;
+  text-shadow: 3px 3px 1px #000000cc;
+}
+/*tabela*/
+
+thead th {
+  background-color: #ffffffcc;
+  color:#000;
+  font-size: 18px;
+  padding: 10px;
+}
+tbody tr:nth-child(odd) {
+  background-color: #000000cc;
+  color:#fff;
+  width: 10px;
+  text-align: center;
+}
+tbody tr:nth-child(even) {
+  background-color: #ffffffcc;
+  text-align: center;
+}
+/*final com rodape*/
+.rodape {
+  background-color: #000;
+  height: 55px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+.rodape p {
+  color: #fff;
+  font-size: 16px;
+}
+.rodape span {
+  color: #ffdf00;
+}
+
+  
